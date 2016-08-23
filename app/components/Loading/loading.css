@@ -1,0 +1,32 @@
+.loading{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #58a transparent;
+    position: relative;
+    box-sizing: border-box;
+    animation: loading-rotate 2s linear infinite;
+}
+
+.loading:before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: transparent #dcdcdc;
+    box-sizing: border-box;
+    animation: loading-rotate 6s linear infinite;
+}
+
+@keyframes loading-rotate {
+    to {
+        transform: rotate(360deg)
+    }
+}
