@@ -15,6 +15,7 @@ var Components = React.createClass({
                     <ul className="components-list">
                         <li className="components-item"><IndexLink to="/components" activeClassName="active">Components Home</IndexLink></li>
                         <li className="components-item"><NavLink to="/components/loading">Loading</NavLink></li>
+                        <li className="components-item"><NavLink to="/components/slider">Slider</NavLink></li>
                     </ul>
                 </nav>
                 <div className="components-content">{this.props.children }</div>

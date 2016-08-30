@@ -1,3 +1,8 @@
+.loading-container{
+    text-align: center;
+    display: inline-block;
+}
+
 .loading{
     display: inline-block;
     width: 2em;

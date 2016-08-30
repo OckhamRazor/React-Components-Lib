@@ -7,7 +7,11 @@ require('./loading.css');
 
 function Loading(props) {
     return (
-        <div className="loading"></div>
+        <div className="loading-container">
+            <div className="loading"></div>
+            <p>Loading...</p>
+        </div>
+
     )
 }
 
